@@ -1,0 +1,5 @@
+pyqt5~=5.15.9
+dlib~=19.24.0
+opencv-python~=4.7.0.72
+numpy~=1.21.6
+pillow~=9.4.0
