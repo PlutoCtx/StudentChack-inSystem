@@ -133,7 +133,7 @@ class CheckInRecord(QWidget, Ui_CheckInRecordForm):
         self.tableWidget.setColumnWidth(5, 140)  # 设置6列的宽度
         self.tableWidget.setColumnWidth(6, 40)  # 设置7列的宽度
 
-        self.tableWidget.setHorizontalHeaderLabels(["Name", "Student_ID", "Course", "Classroom", "Course Time","Check-in","Late"])
+        self.tableWidget.setHorizontalHeaderLabels(["Name", "ID", "Course", "Classroom", "Course Time","Check-in","Late"])
         self.tableWidget.setRowCount(self.RowLength)
         self.tableWidget.verticalHeader().setVisible(False)  # 隐藏垂直表头)
         self.tableWidget.setEditTriggers(QAbstractItemView.NoEditTriggers)

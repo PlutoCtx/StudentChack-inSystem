@@ -212,14 +212,14 @@ class Ui_Dialog(object):
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Check-in Record Modify"))
-        self.label_2.setText(_translate("Dialog", "学生ID:"))
+        self.label_2.setText(_translate("Dialog", "编号:"))
         self.label_7.setText(_translate("Dialog", "班级:"))
         self.label_9.setText(_translate("Dialog", "结束时间:"))
         self.label_13.setText(_translate("Dialog", "签到时间:"))
         self.label_10.setText(_translate("Dialog", "开始时间:"))
         self.label_3.setText(_translate("Dialog", "姓名:"))
         self.label_4.setText(_translate("Dialog", "课程:"))
-        self.label_14.setText(_translate("Dialog", "迟到:"))
+        # self.label_14.setText(_translate("Dialog", "迟到:"))
         self.radioButton_late.setText(_translate("Dialog", "是"))
         self.pushButton_add.setText(_translate("Dialog", " 保存"))
 import view.ui.resource_rc

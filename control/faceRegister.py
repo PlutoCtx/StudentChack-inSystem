@@ -41,7 +41,7 @@ class FaceRegister(QWidget, Ui_FaceRegisterForm):
         sid = self.lineEdit_sno.text()
         if sid == '':
             # show messegebox
-            reply = QMessageBox.warning(self, 'Error', 'Please input the name and student ID firstly!',
+            reply = QMessageBox.warning(self, 'Error', 'Please input the name and ID firstly!',
                                         QMessageBox.Yes, QMessageBox.Yes)
         else:
             #timetable dialog
@@ -137,14 +137,14 @@ class FaceRegister(QWidget, Ui_FaceRegisterForm):
 
         if name == '' or student_id == '':
             # show messegebox
-            reply = QMessageBox.warning(self, 'Error', 'Please input the name and student ID firstly!',
+            reply = QMessageBox.warning(self, 'Error', 'Please input the name and ID firstly!',
                                         QMessageBox.Yes, QMessageBox.Yes)
         else:
             if self.face_fingerprint == None:
                 reply = QMessageBox.warning(self, 'Error', 'No face feature detected!',
                                             QMessageBox.Yes, QMessageBox.Yes)
             else:
-                #student_id = '123456'
+                # id = '123456'
                 change_time = datetime.now()
                 timetable = str(self.timetable)
                 face_data = str(self.face_fingerprint)
@@ -189,7 +189,7 @@ class FaceRegister(QWidget, Ui_FaceRegisterForm):
                                                     QMessageBox.Yes, QMessageBox.Yes)
                 else:
                     # show messegebox
-                    reply = QMessageBox.warning(self, 'Error', 'Your student ID have registered!',
+                    reply = QMessageBox.warning(self, 'Error', 'Your ID have registered!',
                                                 QMessageBox.Yes, QMessageBox.Yes)
     #show the label on the frame
     def show_label(self,frame,label):

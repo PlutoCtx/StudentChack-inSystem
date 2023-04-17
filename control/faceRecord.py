@@ -122,7 +122,7 @@ class FaceRecord(QWidget, Ui_FaceRecordForm):
         self.tableWidget.setColumnWidth(3, 130)  # 设置4列的宽度
         self.tableWidget.setColumnWidth(4, 160)  # 设置5列的宽度
 
-        self.tableWidget.setHorizontalHeaderLabels(["Name", "Student_ID", "Face Feature", "Register Time", "Face Photo"])
+        self.tableWidget.setHorizontalHeaderLabels(["Name", "ID", "Face Feature", "Register Time", "Face Photo"])
         self.tableWidget.setRowCount(self.RowLength)
         self.tableWidget.verticalHeader().setVisible(False)  # 隐藏垂直表头)
         self.tableWidget.setEditTriggers(QAbstractItemView.NoEditTriggers)

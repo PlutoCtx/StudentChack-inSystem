@@ -105,7 +105,7 @@ class FaceCheckin(QWidget, Ui_FaceCheckForm):
                     change_time = datetime.now().strftime( '%Y/%m/%d %H:%M' )
                     have_class,course_name,classroom,start_time,end_time,late = find_current_course(eval(search_result[3]))
                     if have_class == 0:
-                        reply = QMessageBox.warning(self, 'Error', 'You have no class now!',
+                        reply = QMessageBox.warning(self, 'Message', 'login success',
                                                     QMessageBox.Yes, QMessageBox.Yes)
 
 

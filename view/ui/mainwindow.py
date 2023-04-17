@@ -307,7 +307,7 @@ class Ui_MainWindow(object):
         self.pushButton_checkin_record.setObjectName("pushButton_checkin_record")
         self.label_logo = QtWidgets.QLabel(self.centralwidget)
         self.label_logo.setGeometry(QtCore.QRect(440, 90, 421, 351))
-        self.label_logo.setStyleSheet("border-image: url(:/icon/pic/logoface_3.png);")
+        self.label_logo.setStyleSheet("border-image: url(:/icon/pic/logoface.png);")
         self.label_logo.setText("")
         self.label_logo.setObjectName("label_logo")
         self.label_author = QtWidgets.QLabel(self.centralwidget)
